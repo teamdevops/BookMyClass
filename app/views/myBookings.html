@@ -1,0 +1,18 @@
+<p style="padding:60px"></p>
+<div class="container">
+	<div class="col-sm-10 col-sm-offset-1">
+		<div class="row row-content">
+			<ul class="list-group">
+				<li class="list-group-item" ng-repeat="book in myBookings">
+					{{days[book.day]}} , {{book.room}}, {{book.intime}}, {{book.outime}}
+					<span class="pull-right">
+						<!-- <button class="btn btn-xs btn-info">Info</button> -->
+						<button class="btn btn-xs btn-warning">
+							<span class="glyphicon glyphicon-trash" ng-click="showModal($index)"></span>
+						</button>
+				    </span>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>

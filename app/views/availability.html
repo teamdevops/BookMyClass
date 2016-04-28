@@ -1,0 +1,25 @@
+<p style="padding:60px"></p>
+<div class="container">
+    <div class="col-sm-10 col-sm-offset-1">
+        <div class="panel panel-default">
+            <!-- Default panel contents -->
+            <div class="panel-heading" style="text-align:center">On {{day}} , following classes are available</div>
+            <div class="panel-body" ng-if="!isClassAvailable()">Sorry No class available</div>
+            <!-- Table -->
+            <table class="table" ng-if="isClassAvailable()">
+                <tr>
+                    <th>#</th>
+                    <th>Room</th>
+                    <th>InTime</th>
+                    <th>OutTime</th>
+                </tr>
+                <tr ng-repeat="open in openings" ng-click="showModal($index)" data-id="{{$index+1}}">
+                    <td>{{$index+1}}</td>
+                    <td>{{open.room}}</td>
+                    <td>{{open.intime}}</td>
+                    <td>{{open.outime}}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>

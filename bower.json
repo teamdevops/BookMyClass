@@ -1,0 +1,34 @@
+{
+  "name": "bookMyClass",
+  "authors": [
+    "Satya Prakash",
+    "Chandra Bhan Giri"
+  ],
+  "description": "This is an app for teacher for booking their classroom",
+  "main": "index.html",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "classroom",
+    "booking"
+  ],
+  "license": "yes",
+  "homepage": "index.html",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "angular": "angularjs#~1.5.3",
+    "angular-ui-router": "~0.2.18",
+    "angular-resource": "~1.5.5",
+    "angular-bootstrap": "~1.3.1",
+    "angular-animate": "~1.5.5"
+  }
+}

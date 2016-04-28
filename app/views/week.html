@@ -1,0 +1,10 @@
+<p style="padding:60px"></p>
+<div class="container">
+    <div class="col-sm-10 col-sm-offset-1">
+        <div class="row row-content">
+            <div class="list-group">
+                <a ui-sref="app.availability({id: '{{$index}}'})" class="list-group-item" ng-repeat="day in days">{{day}} </a>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,67 @@
+{
+  "bookings": [
+    {
+      "room": "NLH-1",
+      "intime": "3:00",
+      "outime": "4:00",
+      "available": true,
+      "id": 1,
+      "user_id": 0,
+      "day": 0
+    },
+    {
+      "room": "NLH-2",
+      "intime": "1:00",
+      "outime": "2:00",
+      "available": true,
+      "id": 2,
+      "user_id": 0,
+      "day": 0
+    },
+    {
+      "room": "LHC-1",
+      "intime": "9:00",
+      "outime": "10:00",
+      "available": true,
+      "id": 3,
+      "user_id": 1,
+      "day": 0
+    },
+    {
+      "room": "LHC-2",
+      "intime": "1:00",
+      "outime": "2:00",
+      "available": true,
+      "id": 4,
+      "user_id": 0,
+      "day": 1
+    },
+    {
+      "room": "LHC-1",
+      "intime": "4:00",
+      "outime": "5:00",
+      "available": true,
+      "id": 5,
+      "user_id": 0,
+      "day": 1
+    },
+    {
+      "room": "GS-1",
+      "intime": "8:00",
+      "outime": "10:00",
+      "available": true,
+      "id": 7,
+      "user_id": 0,
+      "day": 3
+    },
+    {
+      "room": "NLH-2",
+      "intime": "3:00",
+      "outime": "4:00",
+      "available": true,
+      "id": 6,
+      "user_id": 0,
+      "day": 4
+    }
+  ]
+}

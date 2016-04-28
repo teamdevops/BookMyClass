@@ -1,0 +1,13 @@
+<div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal">&times;</button>
+    <h4 class="modal-title" style="text-align:center">Are you sure? </h4>
+</div>
+<div id="classDetails" class="modal-body">
+    <p>Book class {{appointment.room}} from {{appointment.intime}} to {{appointment.outime}} </p>
+</div>
+<div class="modal-footer">
+    <div class="col-sm-offset-2 col-xs-6">
+        <button class="btn btn-primary" type="button" ng-click="ok()">Confirm</button>
+        <button class="btn btn-warning" type="button" ng-click="cancel()">Cancel</button>
+    </div>
+</div>
